@@ -17,7 +17,7 @@ description = "窥探嵌入式终端设备"
 # tribe-vitaer = { version = "0.1.0", features = ["std"] }
 
 tribe-valver = { git = "https://github.com/cuprumwz/tribe.git", features = [] }
-tribe-couper = { git = "https://github.com/cuprumwz/tribe.git", features = [] }
+tribe-couper = { git = "https://github.com/cuprumwz/tribe.git", features = ["std"] }
 tribe-hinger = { git = "https://github.com/cuprumwz/tribe.git", features = [] }
 tribe-larder = { git = "https://github.com/cuprumwz/tribe.git", features = [] }
 tribe-snaper = { git = "https://github.com/cuprumwz/tribe.git", features = [] }

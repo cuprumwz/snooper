@@ -8,8 +8,6 @@ description = "窥探嵌入式终端设备"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde = { version = "1.0", features = ["derive"] }
-serialport = { git = "https://github.com/serialport/serialport-rs", features = ["serde"] }
 tribe-valver = { version = "0.1.0", features = ["std"] }
 tribe-couper = { version = "0.1.0", features = ["std"] }
 tribe-hinger = { version = "0.1.0", features = ["std"] }
@@ -17,3 +15,6 @@ tribe-larder = { version = "0.1.0", features = ["std"] }
 tribe-snaper = { version = "0.1.0", features = ["std"] }
 tribe-stroma = { version = "0.1.0", features = ["std"] }
 tribe-vitaer = { version = "0.1.0", features = ["std"] }
+
+serde = { version = "1.0", features = ["derive"] }
+serialport = { git = "https://github.com/serialport/serialport-rs", features = ["serde"] }
